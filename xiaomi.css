@@ -1,0 +1,93 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    height:2500px;
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+a{
+    text-decoration: none;/*删除下划线*/
+}
+/*控制背景颜色*/
+.header{
+    background-color:#333;
+    height:40px;
+}
+
+.header-one{
+    margin:0 auto; /*上下0 左右居中*/
+    width:1226px;
+}
+.header-one::before,.header-one::after{
+    content: "";
+    display: table;/*消除塌线*/
+}
+.header-one::after{
+    clear: both;
+}
+
+.header a{
+    color: #b0b0b0;
+    font-size:12px;
+}
+.header a:hover{
+    color:#fff;
+}
+.daohang-one{
+    float: left;
+    height: 40px;
+    line-height: 40px;/*行高*/
+    font-size:0;/*消除|的空格*/
+}
+.daohang-one span{
+    font-size:12px;
+    color: #424242;
+    font-family:sans-serif;
+    margin:0.5em;
+}
+.daohang-two,.daohang-three{
+    float: right;
+}
+
+.daohang-two a{
+    display: block;/*块元素*/
+    height: 40px;
+    line-height: 40px;/*字体高度*/
+    text-align: center;/*文本居中*/
+    width:120px;
+    background-color: #424242;
+}
+
+.daohang-two span{
+    margin-left:-4px;
+    font-size:12px;
+}
+
+.daohang-two a:hover{
+    background-color:#fff;
+    color:#ff6700;
+}
+
+.daohang-three{
+    margin-right:15px;
+}
+.daohang-three a{
+    float: left;
+    padding:0 5px;
+    line-height: 40px;
+    height:40px;
+}
+.daohang-three span{
+    float: left;
+    font-family: sans-serif;
+    font-size:12px;
+    color: #424242;
+    line-height:40px;
+    height:40px;
+}
+
+.daohang-three .kongge{
+    padding:0 10px;
+}
