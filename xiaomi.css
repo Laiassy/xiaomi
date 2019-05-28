@@ -1,4 +1,4 @@
-body{
+body,ul,li{
     margin:0px;
     padding:0px;
 }
@@ -10,29 +10,32 @@ body{
 a{
     text-decoration: none;/*删除下划线*/
 }
+ul{
+    list-style-type: none;/*去除点*/
+}
 /*控制背景颜色*/
-.header{
+.top{
     background-color:#333;
     height:40px;
 }
 
-.header-one{
+.top-one{
     margin:0 auto; /*上下0 左右居中*/
     width:1226px;
 }
-.header-one::before,.header-one::after{
+.top::before,.header-one::after{
     content: "";
     display: table;/*消除塌线*/
 }
-.header-one::after{
+.top-one::after{
     clear: both;
 }
 
-.header a{
+.top a{
     color: #b0b0b0;
     font-size:12px;
 }
-.header a:hover{
+.top a:hover{
     color:#fff;
 }
 .daohang-one{
@@ -65,6 +68,12 @@ a{
     font-size:12px;
 }
 
+.daohang-two i{
+    font-size: 20px;
+    line-height: 20px;
+    margin-right:4px;
+    vertical-align: -4px;
+}
 .daohang-two a:hover{
     background-color:#fff;
     color:#ff6700;
@@ -90,4 +99,154 @@ a{
 
 .daohang-three .kongge{
     padding:0 10px;
+}
+
+.header{
+    height:100px;
+    
+}
+
+.fenlei-logo {
+    float: left;
+    width:62px;
+    margin-top:22px;
+    margin:1.5em;
+    
+}
+
+.fenlei-logo a{
+    display: block;/*块元素*/
+    width:55px;
+    height:55px;
+}
+.fenlei{
+    float:left;
+    width:820px;
+    height:100px;
+    
+}
+
+.fenlei .fenlei-list{
+    width:820px;
+    height:88px;
+    font-size:16px;
+    padding:12px 0 0 142px;
+}
+
+.fenlei .fenlei-list .fenlei-item{
+    float: left;
+
+}
+
+.fenlei .fenlei-list .fenlei-item a{
+    display: block;
+    padding:26px 10px 38px;
+    color: #333;
+}
+
+.fenlei .fenlei-list .fenlei-item a:hover{
+    color:#ff6700;
+}
+
+.fenlei-gouwu{
+    float: right;
+    width:296px;
+    height:50px;
+    margin-top:25px;
+    
+}
+
+.fenlei-gouwu .gouwu-form{
+    position: relative;/*给绝对定位创造点 让他相对于表单而不是相对于body*/
+    display: block;
+    width:296px;
+    height:50px;
+}
+
+.fenlei-gouwu .gouwu-form .gouwu-text{
+    position: absolute;
+    top:0px;
+    right:51px;
+    display: block;
+    width:240px;
+    height:46px;
+    line-height:48px;/*文字居中*/
+    border:1px solid #e0e0e0;
+    outline:0;/*去线*/
+    margin:0px 18px 0px 0px;
+}
+
+.fenlei-gouwu .gouwu-form .gouwu-btn{
+    position: absolute;
+    top:0;
+    right:0;
+    display: block;
+    width:52px;
+    height:50px;
+    border:1px solid #e0e0e0;
+    font-size:24px;/*字体大小*/
+    line-height: 24px;
+    background:#fff;
+    color: #616161;
+    outline:0;
+    margin:0px 18px 0px 0px;
+}
+.fenlei-gouwu .gouwu-form .gouwu-btn:hover{
+    background-color:#ff6700;
+    color:#fff;
+}
+
+.xuanzequ {
+    width:234px;
+    height:460px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left:20px;
+    z-index: 10;
+}
+
+p{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+
+
+.xuanzequ  .xuanzequ-first a:hover{
+
+    background-color:#ff6700;
+}
+
+.xuanzequ-beijing{
+    transform: scale(0.5);
+    position: absolute;
+    top:-90px;
+    left:-594px;
+    z-index: -1;
+}
+
+.xuanzequ .xuanzequ-first{
+   
+    weight:234px;
+    height:460px;
+    padding:20px 0 0 0;
+
+}
+.xuanzequ  .xuanzequ-first a{
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 40px;
+    color: #fff;
+    z-index: 10;
+}
+
+.xuanzequ-first a i{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right:4px;
+    vertical-align: -4px;
 }

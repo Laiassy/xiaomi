@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1559060024916'); /* IE9 */
+  src: url('iconfont.eot?t=1559060024916#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOkAAsAAAAAB9QAAANVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDKgqCcIJRATYCJAMUCwwABCAFhG0HVBvhBsiemjwZRlVtFQvI7H4PGDggHr6Wtfe7e2ZjcHcqRHkEl8uj1qFSEvZwW6gsPOXBD5psESYbsT/6l+cCSrWBnOpN/14Ozk81AVzNEZqFiRxrxNx+A6Jp8iQmjWqWGJnu1TyzxBHJFhJtEiqJHgDM//c/l9NrUgLzW5bLmos6atO9AOOAAhp7kRVIwt4yvK1LdVibCXRt88G9npaTz9FX0F6BeCyTlHH0M3qlAR3aQl0xsYiXRNrpefoCeBF8P/7DF22SKqMDb9xNFXMSfsXfJ3i2UctDCKazQpxGxgmOQjystN/Gj+In+Lr6cgIXcbS1JX4l3ovf6UdynE//5IW2ri6SrAiiBpl9cJkkCr/ijtxFCtAjgwKUaVbQKHyOjSrQRRu3cLxFKTseEIokFsadMjGeim7ZDC/s+qMzW2pkbq06Tm16YncJpuM2Vzc/b/Suqd9lpp51O53hg3ChWamo/m44XBmid9OE6K9MmobNW756zZavmNINNyjc4wlfWklx88d08ukCJq6oMB7yExfzJvmwcL/4NCxUMCksOBI3uoqxYIyzM4szE7PJD/mYP+S3wuOxB13hb7y+z/BBIjd97F5LEhL7DP+EbX33u+jE1TS8x70bJQ84yHXFSeMj+8mJzYuK4K0/bLWiJHEG3pp4LmKvieooHvePf5Tlq7FFtavS+/QR2MwsY1NeZ5A+kZd/9huzu97PJWaJ/3avgJ/K2ogga1OR8eIFnQV/SNARUwwRNVRFK3X4mqNylApK/BDRn0kzdT+NenHfydC2SCBp2bJmbUOAuEI6gUrPKdTaLkHXsfTpPTMEX5QOjjQDhLFVSIYayMaOcYV0B5WlP6iNI0PXKpQL9uzFA8M8gTIKYlReg2SMRo1tEzUM0bkgqVCWkbQooBYCYWUhFOjy5FPpoAYyxRC2UhJEKUaYaFQoDbYDpVKDtEQjB4b6SSnVRvm7qao3+TEaFcfQNQQoQwExpFwNRIahoYa96pRh4fO5gEQFpTKkoazOXggQLFn9SCA/AR1w6XJ1p7JbuYZVSSIIRWEIRmioIGnQDigpaSDa6nZygEH5kQ6IakXxZ5VwV7nf8krVO66BLrpCFSlylKiiVp5CNTU4/4AvBfbO+BEmULAFcTgAAAA=') format('woff2'),
+  url('iconfont.woff?t=1559060024916') format('woff'),
+  url('iconfont.ttf?t=1559060024916') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1559060024916#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-next:before {
+  content: "\e6a2";
+}
+
+.icon-icon-test:before {
+  content: "\e63b";
+}
+
+.icon-icon-test1:before {
+  content: "\e63c";
+}
+
+.icon-icon-test2:before {
+  content: "\e658";
+}
+
